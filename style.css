@@ -1,0 +1,79 @@
+/* style.css */
+body {
+  margin: 0;
+  font-family: 'Noto Sans TC', sans-serif;
+  background: #f7f7f7;
+}
+
+.cv-wrapper {
+  display: flex;
+  width: 800px;
+  margin: 40px auto;
+  background: white;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.cv-left {
+  width: 35%;
+  background: #f4ebe4;
+  padding: 30px 20px;
+  box-sizing: border-box;
+}
+
+.cv-right {
+  width: 65%;
+  padding: 30px;
+  box-sizing: border-box;
+}
+
+.photo img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.section {
+  margin-top: 30px;
+}
+
+.section h2 {
+  font-size: 14px;
+  color: #333;
+  border-bottom: 2px solid #d4bda7;
+  margin-bottom: 10px;
+  padding-bottom: 4px;
+  text-transform: uppercase;
+}
+
+.section ul {
+  padding-left: 20px;
+  margin: 0;
+}
+
+.section ul li {
+  font-size: 13px;
+  line-height: 1.6;
+}
+
+.cv-right .header h1 {
+  margin: 0;
+  font-size: 28px;
+}
+
+.cv-right .header h3 {
+  margin-top: 5px;
+  font-size: 16px;
+  font-weight: normal;
+  color: #666;
+}
+
+.cv-right .header p {
+  margin-top: 15px;
+  font-size: 13px;
+  line-height: 1.6;
+}
+
+.cv-right .section p {
+  font-size: 13px;
+  line-height: 1.8;
+}
